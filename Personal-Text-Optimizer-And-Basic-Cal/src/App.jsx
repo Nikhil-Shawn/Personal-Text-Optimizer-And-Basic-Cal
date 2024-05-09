@@ -29,7 +29,7 @@ function App() {
         <button className="buttonText" onClick={optimizeText}>
           Optimize
         </button>
-        <p>Your optimized text is: " {optimizedText} "</p>
+        <p>Your optimized text is: "{optimizedText}"</p>
         <button onClick={() => setCount((count) => count + 1)}>
           count for optimization {count}
         </button>
